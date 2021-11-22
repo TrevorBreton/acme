@@ -1,8 +1,6 @@
-$(document).ready(function (){
-    $('tr').click(function (){
-        $('tr td').css({'background-color' : 'white'}); 
-        $('td', this).css({'background-color' : 'yellow'});
-    }); 
+function highlight(){
+    $('tr td').css({'background-color' : 'white'}); 
+    $('td', this).css({'background-color' : 'yellow'}); 
 });
 
 $(document).ready(function (){ 
